@@ -10,26 +10,26 @@ body {
     box-shadow: -25px 0 50px 0 #000000;
 }
 
-.button-hover {
+.button_hover {
     padding: 0;
     border: none;
     background-color: #ffffff;
     transition-duration: 0.5s;
 }
 
-.button-hover:hover {
+.button_hover:hover {
     transform: scale(1.4);
 }
 
-.href, .button {
+.logo, .button {
     display: inline-block;
 }
 
-.href {
+.logo {
     transition-duration: 0.2s;
 }
 
-.href:hover {
+.logo:hover {
   transform: scale(1.3);
   text-shadow: 3px 3px 5px rgb(140, 137, 165);
 }
@@ -38,7 +38,7 @@ body {
     margin: 23px 17px 53px 24px;
 }
 
-.href_position1 {
+.logo_position1 {
     margin: 17px 0 46px 0;
 }
 
@@ -124,7 +124,7 @@ body {
     margin-bottom: 40px;
 }
 
-.itemlang {
+.langs {
     display: flex;
     list-style: none;
     gap: 7px;
@@ -132,17 +132,17 @@ body {
     padding-left: 24px;
 }
 
-.itemlang__linklang {
+.langs__link {
     text-decoration: none;
     color: #1B1C21;
     transition-duration: 0.2s;
 }
 
-.itemlang__listlang:hover {
+.langs__list:hover {
     transform: scale(1.3);
 }
 
-.itemlang__linklang_active {
+.langs__link_active {
     color: #7E7E82;
 }
 
